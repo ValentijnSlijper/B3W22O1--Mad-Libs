@@ -1,0 +1,59 @@
+@font-face { font-family: Popty-Ping; src: url('poptyping.otf'); }
+*{
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+body{
+  background-color: #3c3b34;
+}
+header{
+  width: 700px;
+  margin: 0 auto;
+}
+h1{
+  margin: 0 0 10px 15px;
+  font-family: Popty-Ping;
+  font-size: 100px;
+  color: white;
+  text-shadow: 4px 2px black;
+}
+h3{
+  font-family: 'Roboto', sans-serif;
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+}
+.wrapper{
+
+}
+.topred{
+  margin: 0 auto;
+  background-color: #ab2513;
+  width: 700px;
+  height: 55px;
+  display: flex;
+}
+.topred h2{
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  margin: auto 15px;
+  padding-right: 15px;
+  color: white;
+}
+.container{
+  margin: 0 auto;
+  width: 700px;
+  height: 900px;
+  background-color: white;
+}
+.form h3{
+  padding-top: 20px;
+}
+.form{
+  margin: 0 auto;
+  width: 650px;
+  height: 850px;
+
+}
