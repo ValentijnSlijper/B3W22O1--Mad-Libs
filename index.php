@@ -71,6 +71,20 @@ include("form.php");
         <input type="submit" name="submit" value="Versturen">
       </div>
 
+
+  <?php
+
+      $huisdier = $_POST['huisdier'];
+      $persoon = $_POST['persoon'];
+      $land = $_POST['land'];
+      $verveelt = $_POST['verveelt'];
+      $speelgoed = $_POST['speelgoed'];
+      $spijbel = $_POST['spijbel'];
+      $kopen = $_POST['kopen'];
+      $bezigheid = $_POST['bezigheid'];
+
+  ?>
+
         </form>
       </div>
       <footer>
