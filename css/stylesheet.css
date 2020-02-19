@@ -3,8 +3,10 @@
   margin: 0;
   padding: 0;
   font-weight: normal;
+  font-family: 'Roboto', sans-serif;
 }
 
+/* Main page layout START */
 body{
   background-color: #3c3b34;
 }
@@ -79,7 +81,7 @@ li a:hover {
 }
 label{
   margin: 20px 0 10px 0;
-  font-size: 16px;
+  font-size: 15px;
 }
 input{
   width: 300px;
@@ -104,9 +106,45 @@ footer {
   background-color: #535245;
 }
 footer h4{
+  font-size: 15px;
   font-family: 'Roboto', sans-serif;
-  padding: 17px 0;
+  padding: 19px 0;
   align-items: center;
   text-align: center;
   color: white;
 }
+/* Main page layout END */
+
+
+
+/* Form php result page START */
+.output{
+  margin: 0 auto;
+  width: 660px;
+  padding-top: 20px;
+}
+.output p{
+  font-family: 'Roboto', sans-serif;
+  padding-top: 16px;
+}
+
+/* Form php result page END */
+
+
+
+
+/* Edit for second page Onkunde container and output START */
+.container2{
+  margin: 0 auto;
+  width: 700px;
+  height: 400px;
+  background-color: white;
+}
+.container3{
+  margin: 0 auto;
+  width: 700px;
+  height: 185px;
+  background-color: white;
+}
+
+/* Edit for second page Onkunde container and output END*/
